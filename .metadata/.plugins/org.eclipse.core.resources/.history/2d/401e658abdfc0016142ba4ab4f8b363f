@@ -1,0 +1,15 @@
+package JavaAbstractFactoryPattern;
+
+public interface Wiget {
+	boolean validate(String temp);
+}
+
+class Mail implements Wiget{
+
+	@Override
+	public boolean validate(String temp) {
+		// TODO Auto-generated method stub
+		return temp.equals("lorence@enclave.vn");
+	}
+	
+}

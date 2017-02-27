@@ -1,0 +1,11 @@
+package JavaFactoryPattern;
+
+public class Email implements Widget{
+
+	@Override
+	public boolean validate(String email) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}
