@@ -1,0 +1,47 @@
+package JavaAbstractFactoryPattern;
+
+public abstract class AbstractFactory {
+	abstract Printer getPrinter(String type);
+	abstract Widget getWidget(String widget);
+}
+
+class WidgetFactory extends AbstractFactory{
+
+	@Override
+	Printer getPrinter(String type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	Widget getWidget(String widget) {
+		// TODO Auto-generated method stub
+		if(widget == null){
+			return null;
+		}
+		if(widget.equalsIgnoreCase("EMAIL")){
+			// return new Email(); 
+		}else if(widget.equalsIgnoreCase("USER")){
+			// return new User();
+		}else if(widget.equalsIgnoreCase("PASS")){
+			// return new Pass();
+		}
+	}
+	
+}
+
+class PrinterFactory extends AbstractFactory{
+
+	@Override
+	Printer getPrinter(String type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	Widget getWidget(String widget) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

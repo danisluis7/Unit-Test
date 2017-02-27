@@ -1,0 +1,6 @@
+package JavaAbstractFactoryPattern;
+
+public abstract class AbstractFactory {
+	abstract Printer getPrinter(String type);
+	abstract Widget getWidget(String widget);
+}

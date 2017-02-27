@@ -1,0 +1,5 @@
+package JavaAbstractFactoryPattern;
+
+public class Printer {
+
+}
