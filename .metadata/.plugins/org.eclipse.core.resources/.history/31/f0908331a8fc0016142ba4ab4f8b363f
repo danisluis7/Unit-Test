@@ -15,6 +15,6 @@ public class StartValidateUser {
 	
 	@Test
 	public void validateUserTest2(){
-		Assert.assertFalse(new DataUserTest().isValidate("Lorence","Abc@126"));
+		Assert.assertTrue(new DataUserTest().isValidate("Lorence","Abc@126"));
 	}
 }
