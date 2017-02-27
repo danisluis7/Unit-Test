@@ -1,0 +1,11 @@
+package ValidateUser;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class StartValidateUser {
+	@Test
+	public void validateUserTest(){
+		Assert.assertTrue(new UserTemplate().isValidateUser("Lorence","Abc@123456"));
+	}
+}
