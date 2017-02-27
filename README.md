@@ -6,10 +6,10 @@
  + Picture 3 :=> extend AbstractClass[Common Class] => Contain both of class. 
 
 <p align="center">
-    <img src="https://github.com/danisluis7/Unit-Test/blob/level3/ApplyUnitTest/1.png" alt="Unit Test"/>
+    <img src="https://github.com/danisluis7/Unit-Test/blob/level3/ApplyUnitTest/1.jpg" alt="Unit Test"/>
 </p>
 <p align="center">
-    <img src="https://github.com/danisluis7/Unit-Test/blob/level3/ApplyUnitTest/2.png" alt="Unit Test"/>
+    <img src="https://github.com/danisluis7/Unit-Test/blob/level3/ApplyUnitTest/2.jpg" alt="Unit Test"/>
 </p>
 <p align="center">
     <img src="https://github.com/danisluis7/Unit-Test/blob/level3/ApplyUnitTest/3.png" alt="Unit Test"/>
